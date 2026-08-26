@@ -39,6 +39,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
           plugins_errors_fatal: no
+          repositories_batch: 20
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_lines: yes
