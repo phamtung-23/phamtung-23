@@ -131,16 +131,20 @@
 
 ## 📊 GitHub Activity
 
-<p align="center">
-  <img width="47%" alt="Commit calendar, activity, community and lines changed" src="./metrics/overview.svg">
-  <img width="47%" alt="Most used languages across public and private repositories" src="./metrics/skills.svg">
-</p>
+<table>
+  <tr>
+    <td width="46%" valign="top">
+      <img width="100%" alt="Commit calendar, activity, community and lines changed" src="./metrics/overview.svg">
+    </td>
+    <td width="54%" valign="top">
+      <img width="100%" alt="Most used languages across public and private repositories" src="./metrics/skills.svg">
+      <br><br>
+      <img width="100%" alt="Contribution graph" src="https://ghchart.rshah.org/0A66C2/phamtung-23">
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img alt="Contribution graph" src="https://ghchart.rshah.org/0A66C2/phamtung-23" width="96%">
-</p>
-
-<sub><i>The two cards above are generated daily by <a href="./.github/workflows/metrics.yml">.github/workflows/metrics.yml</a> and committed to this repository, so they do not depend on any third-party service staying up. They include private-repository activity.</i></sub>
+<sub><i>The two cards are generated daily by <a href="./.github/workflows/metrics.yml">.github/workflows/metrics.yml</a> and committed to this repository, so they do not depend on any third-party service staying up. They include private-repository activity.</i></sub>
 
 ---
 
