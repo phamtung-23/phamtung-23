@@ -55,6 +55,7 @@ jobs:
           base: ""
           config_timezone: Asia/Ho_Chi_Minh
           plugins_errors_fatal: no
+          repositories_batch: 20
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_details: percentage, bytes-size
