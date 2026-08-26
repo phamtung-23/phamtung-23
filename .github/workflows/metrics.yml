@@ -58,7 +58,10 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_details: percentage, bytes-size
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_sections: most-used
+          # NOTE: "recently-used" is intentionally left out — it crashes upstream in
+          # source/plugins/languages/analyzer/recent.mjs (destructures payload.commits
+          # of a PushEvent that has none), and the throw escapes plugins_errors_fatal.
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
